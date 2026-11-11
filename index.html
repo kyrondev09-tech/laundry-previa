@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f8fb">
+  <meta name="description" content="Linho & Dia: lavanderia fictícia com cuidado para roupas do dia a dia, enxoval, peças especiais e passadoria.">
+  <meta property="og:title" content="Linho & Dia — mais vida nos seus dias">
+  <meta property="og:description" content="Uma lavanderia pensada para deixar sua rotina mais leve.">
+  <meta property="og:image" content="assets/images/hero-desktop-1200.webp">
+  <title>Linho & Dia — Lavanderia para uma rotina mais leve</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="topline">✳ &nbsp; Seu tempo merece ser bem cuidado. <a href="#como-funciona">Veja como funciona ↗</a></div>
+  <header class="header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Linho e Dia, voltar ao início"><span class="brand-icon" aria-hidden="true">✳</span><span class="brand-word">linho<span>&amp;</span>dia<small>LAVANDERIA</small></span></a>
+      <nav class="desktop-nav" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#como-funciona">Como funciona</a><a href="#cuidado">Nosso cuidado</a><a href="#perguntas">Dúvidas</a></nav>
+      <a class="button dark header-cta" href="#pedido">Montar meu pedido <span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden><a href="#servicos">Serviços</a><a href="#como-funciona">Como funciona</a><a href="#cuidado">Nosso cuidado</a><a href="#perguntas">Dúvidas</a><a href="#pedido">Montar pedido ↗</a></nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title"><div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> A LAVANDERIA DO SEU TEMPO</span>
+        <h1 id="hero-title">Mais vida nos seus dias.<br class="desktop-break"> <em>Mais cuidado</em> nas suas roupas.</h1>
+        <p>Da camisa de toda semana ao edredom que pede atenção extra: a gente cuida de cada peça para você aproveitar o que realmente importa.</p>
+        <div class="hero-actions"><a class="button dark" href="#pedido">Quero cuidar das minhas roupas <span aria-hidden="true">↗</span></a><a class="text-link" href="#servicos">Explorar serviços ↓</a></div>
+        <div class="hero-foot"><span aria-hidden="true">✦</span><p>Cuidado para a rotina real,<br>sem complicação.</p></div>
+      </div>
+      <div class="hero-image"><picture><source media="(max-width:760px)" srcset="assets/images/hero-mobile-800.webp"><img src="assets/images/hero-desktop-1200.webp" alt="Toalhas limpas e dobradas em lavanderia iluminada" width="1200" height="896" fetchpriority="high"></picture><div class="image-label"><span>✳</span><strong>O cuidado<br>faz a diferença.</strong></div></div>
+    </div></section>
+    <div class="ribbon" aria-label="Roupas do dia a dia, edredons e enxoval, passadoria e peças especiais"><div class="ribbon-track"><div class="ribbon-group"><span>ROUPAS DO DIA A DIA</span><b aria-hidden="true">✳</b><span>EDREDONS &amp; ENXOVAL</span><b aria-hidden="true">✳</b><span>PASSADORIA</span><b aria-hidden="true">✳</b><span>PEÇAS ESPECIAIS</span><b aria-hidden="true">✳</b></div><div class="ribbon-group" aria-hidden="true"><span>ROUPAS DO DIA A DIA</span><b aria-hidden="true">✳</b><span>EDREDONS &amp; ENXOVAL</span><b aria-hidden="true">✳</b><span>PASSADORIA</span><b aria-hidden="true">✳</b><span>PEÇAS ESPECIAIS</span><b aria-hidden="true">✳</b></div></div></div>
+    <section class="section services" id="servicos" aria-labelledby="services-title"><div class="container">
+      <div class="section-head"><div><span class="eyebrow green">O QUE A GENTE CUIDA</span><h2 id="services-title">Um cuidado para<br><em>cada tipo de peça.</em></h2></div><p>Tem roupa que acompanha a rotina. Tem peça que guarda uma história. Cada uma merece o tratamento certo.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-image"><img src="assets/images/service-roupas-800.webp" alt="Camisas limpas penduradas em cabides" width="800" height="600" loading="lazy"><span>01 / 04</span></div><div class="card-content"><div><small>O ESSENCIAL</small><h3>Roupas do dia a dia</h3><p>Lavagem e acabamento para as peças que acompanham todos os seus planos.</p></div><button type="button" data-service="Roupas do dia a dia" aria-label="Adicionar roupas do dia a dia ao pedido">↗</button></div></article>
+        <article class="card"><div class="card-image"><img src="assets/images/hero-desktop-800.webp" alt="Toalhas limpas e dobradas" width="800" height="597" loading="lazy"><span>02 / 04</span></div><div class="card-content"><div><small>CONFORTO EM CASA</small><h3>Edredons &amp; enxoval</h3><p>O cuidado que as peças volumosas precisam para voltar prontas para usar.</p></div><button type="button" data-service="Edredons e enxoval" aria-label="Adicionar edredons e enxoval ao pedido">↗</button></div></article>
+        <article class="card"><div class="card-image"><img src="assets/images/service-passadoria-800.webp" alt="Ferro de passar sobre camisa azul" width="800" height="600" loading="lazy"><span>03 / 04</span></div><div class="card-content"><div><small>PRONTO PARA VESTIR</small><h3>Passadoria</h3><p>Camisas, calças e peças sociais alinhadas para facilitar a sua semana.</p></div><button type="button" data-service="Passadoria" aria-label="Adicionar passadoria ao pedido">↗</button></div></article>
+        <article class="card"><div class="card-image"><img src="assets/images/service-tapetes-800.webp" alt="Tapete de tecido estampado em ambiente claro" width="800" height="600" loading="lazy"><span>04 / 04</span></div><div class="card-content"><div><small>ATENÇÃO EXTRA</small><h3>Peças especiais</h3><p>Tapetes, tecidos delicados e itens que pedem avaliação individual.</p></div><button type="button" data-service="Peças especiais" aria-label="Adicionar peças especiais ao pedido">↗</button></div></article>
+      </div>
+    </div></section>
+    <section class="section process" id="como-funciona" aria-labelledby="process-title"><div class="container process-grid">
+      <div><span class="eyebrow pale">SIMPLES ASSIM</span><h2 id="process-title">A roupa vai.<br><em>A leveza volta.</em></h2><p>Uma jornada clara, do primeiro contato à peça pronta para voltar ao seu guarda-roupa.</p><a class="button light" href="#pedido">Começar um pedido ↗</a></div>
+      <ol class="steps"><li><span>01</span><div><h3>Conte o que precisa</h3><p>Escolha o tipo de peça e descreva o cuidado que procura.</p></div><b>↗</b></li><li><span>02</span><div><h3>Combine a entrega</h3><p>Defina a melhor forma de entregar e receber suas peças.</p></div><b>↗</b></li><li><span>03</span><div><h3>Deixe o cuidado com a gente</h3><p>O tratamento é escolhido conforme o tecido e a necessidade.</p></div><b>↗</b></li><li><span>04</span><div><h3>Receba tudo pronto</h3><p>Roupas organizadas e mais tempo livre para o seu dia.</p></div><b>✳</b></li></ol>
+    </div></section>
+    <section class="section care" id="cuidado" aria-labelledby="care-title"><div class="container care-grid">
+      <div class="care-photo"><img src="assets/images/about-heritage-1000.webp" alt="Roupas e toalhas dobradas em um ambiente acolhedor" width="1000" height="747" loading="lazy"><span>CUIDAR TAMBÉM É PRESTAR ATENÇÃO.</span></div>
+      <div><span class="eyebrow green">NOSSO JEITO DE FAZER</span><h2 id="care-title">A gente olha para a peça.<br class="desktop-break"> <em>E para a vida que acontece nela.</em></h2><p>Boa lavanderia começa com escuta. Antes de qualquer processo, entendemos o tecido, o uso e o que você espera do resultado.</p><div class="care-list"><div><b>01</b><div><h3>Cuidado sob medida</h3><p>Peças delicadas recebem atenção individual.</p></div></div><div><b>02</b><div><h3>Comunicação clara</h3><p>Você entende as etapas e combina os detalhes.</p></div></div><div><b>03</b><div><h3>Rotina mais leve</h3><p>Mais praticidade para sua lista de tarefas.</p></div></div></div></div>
+    </div></section>
+    <section class="quote"><div class="container"><span aria-hidden="true">✳</span><p>Mais que roupa limpa, <em>um respiro na rotina.</em></p><a href="#pedido">Vamos cuidar das suas peças? ↗</a></div></section>
+    <section class="section faq" id="perguntas" aria-labelledby="faq-title"><div class="container faq-grid"><div><span class="eyebrow green">ANTES DE COMEÇAR</span><h2 id="faq-title">Dúvidas que<br><em>podem aparecer.</em></h2><p>Prazo e preço dependem das peças e da região atendida.</p></div><div class="faq-items">
+      <details><summary>Como sei qual serviço escolher?<span>+</span></summary><p>Comece pelo tipo de peça. Se houver dúvida, descreva o tecido e o cuidado desejado ao montar o pedido.</p></details>
+      <details><summary>Vocês cuidam de peças delicadas?<span>+</span></summary><p>Peças delicadas e especiais precisam de avaliação individual antes da confirmação do serviço.</p></details>
+      <details><summary>Posso pedir coleta e entrega?<span>+</span></summary><p>Essa possibilidade depende da área atendida. Horários e eventuais custos são combinados no primeiro contato.</p></details>
+      <details><summary>Como funcionam preços e prazos?<span>+</span></summary><p>O orçamento depende do tipo, da quantidade e do estado das peças. Tudo é definido antes da execução.</p></details>
+    </div></div></section>
+    <section class="order section" id="pedido" aria-labelledby="order-title"><div class="container order-grid"><div class="order-copy"><span class="eyebrow pale">O PRÓXIMO PASSO</span><h2 id="order-title">Sua roupa em boas mãos começa <em>por aqui.</em></h2><p>Selecione o que precisa e monte um resumo. Este é um site conceitual de portfólio: nenhum pedido é enviado a uma lavanderia.</p></div><form id="order-form" class="order-form"><small>MONTE SEU PEDIDO</small><fieldset><legend>Do que você precisa?</legend><div class="choices"><label><input type="checkbox" name="servico" value="Roupas do dia a dia"><span>Roupas do dia a dia</span></label><label><input type="checkbox" name="servico" value="Edredons e enxoval"><span>Edredons &amp; enxoval</span></label><label><input type="checkbox" name="servico" value="Passadoria"><span>Passadoria</span></label><label><input type="checkbox" name="servico" value="Peças especiais"><span>Peças especiais</span></label></div></fieldset><label class="field-label" for="detalhes">Algum detalhe importante?</label><textarea id="detalhes" name="detalhes" rows="3" maxlength="500" placeholder="Ex.: 2 edredons de casal e 5 camisas sociais..."></textarea><button class="button dark" type="submit">Criar resumo do pedido ↗</button><p class="form-note">Demonstração interativa. Nenhum dado é enviado ou armazenado.</p><div class="result" id="result" hidden aria-live="polite"><strong>Seu resumo está pronto</strong><p id="summary"></p><button type="button" id="copy-button">Copiar resumo</button><span id="copy-status" role="status"></span></div></form></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><div><a class="brand" href="#topo" aria-label="Linho e Dia, voltar ao topo"><span class="brand-icon" aria-hidden="true">✳</span><span class="brand-word">linho<span>&amp;</span>dia<small>LAVANDERIA</small></span></a><p>O cuidado que devolve leveza aos seus dias.</p></div><div><strong>Explore</strong><a href="#servicos">Serviços</a><a href="#como-funciona">Como funciona</a><a href="#cuidado">Nosso cuidado</a></div><div><strong>Próximo passo</strong><a href="#perguntas">Perguntas frequentes</a><a href="#pedido">Montar pedido</a><a href="#topo">Voltar ao topo ↑</a></div></div><div class="container footer-bottom"><span>© <span id="year">2026</span> Linho &amp; Dia</span><span>Projeto conceitual de portfólio · Marca fictícia</span></div></footer>
+</body>
+</html>
